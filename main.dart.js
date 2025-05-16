@@ -81325,7 +81325,7 @@ q=r.d
 r=(q==null?r.b:q).cR(255)
 q=A.C(a).ax
 p=q.d
-s=A.dA(l,l,B.r,l,l,new A.c6(l,l,l,l,l,new A.k3(B.dP,B.dO,B.bt,A.b([r,(p==null?q.b:p).cR(150)],t.t_),B.fY,l),B.a9),l,s,l,l,l,l,1/0)
+s=A.dA(l,l,B.r,l,l,new A.c6(l,l,l,l,l,new A.k3(B.dP,B.dO,B.bt,A.b([r,(p==null?q.b:p).cR(200)],t.t_),B.fY,l),B.a9),l,s,l,l,l,l,1/0)
 r=k?500:350
 q=k?60:40
 p=A.C(a).ax
@@ -81340,13 +81340,13 @@ n=m==null?n.c:m
 m=t.p
 return A.hm(B.bw,A.b([i,s,A.df(A.fZ(new A.bI(B.fA,A.c7(A.b([q,B.at,A.bo("Software Developer & Overall Chill Dude",l,l,l,A.e2(l,l,n,l,l,l,l,l,l,l,l,p,l,l,l,l,l,!0,l,l,l,l,l,A.b([new A.iZ(A.aK(77,B.l.D()>>>16&255,B.l.D()>>>8&255,B.l.D()&255),B.JB,8)],o),l,l),B.cT,l),B.kn,A.ZY(B.SL,new A.a1x(a),A.wQ(l,l,A.C(a).ax.b,l,l,l,l,l,l,A.C(a).ax.c,l,l,B.DH,l,l,l,l,l,l))],m),B.a_,B.dj,B.B),l),l,l),r,1/0)],m),B.K,B.bs)},
 a1i(a){var s,r=null,q=A.C(a).ax,p=q.d
-q=(p==null?q.b:p).cR(150)
+q=(p==null?q.b:p).cR(200)
 p=A.C(a).ax
 s=p.d
-q=A.b([q,(s==null?p.b:s).cR(100)],t.t_)
+q=A.b([q,(s==null?p.b:s).cR(150)],t.t_)
 return A.dA(r,A.c7(A.b([A.bo("About Me",r,r,r,A.C(a).p1.e,r,r),B.at,A.bo(u.i,r,r,r,A.C(a).p1.y,r,r),B.at,A.bo(u.d,r,r,r,A.C(a).p1.y,r,r),B.at,A.bo(u.W,r,r,r,A.C(a).p1.y,r,r),B.at,A.ZY(B.SI,new A.a1v(a),A.wQ(r,r,A.C(a).ax.b,r,r,r,r,r,r,A.C(a).ax.c,r,r,r,r,r,r,r,r,r))],t.p),B.a6,B.y,B.B),B.r,r,r,new A.c6(r,r,r,r,r,new A.k3(B.dP,B.dO,B.bt,q,B.fY,r),B.a9),r,r,r,B.cz,r,r,r)},
 a1p(a){var s=null,r=A.C(a).ax,q=r.d
-r=(q==null?r.b:q).cR(100)
+r=(q==null?r.b:q).cR(150)
 return A.dA(s,A.c7(A.b([A.bo("Get In Touch",s,s,s,A.C(a).p1.e,s,s),B.at,A.bo("Have a project in mind or just want to chat? Feel free to reach out!",s,s,s,A.C(a).p1.y,s,s),B.at,A.ZY(B.SP,new A.a1w(a),A.wQ(s,s,A.C(a).ax.b,s,s,s,s,s,s,A.C(a).ax.c,s,s,s,s,s,s,s,s,s))],t.p),B.a6,B.y,B.B),B.r,r,s,s,s,s,s,B.cz,s,s,1/0)}}
 A.a1x.prototype={
 $0(){A.yu(this.a,"/contact",t.X)},
