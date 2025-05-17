@@ -39596,6 +39596,7 @@ $1$scrollbars(a){return this.K(this,A.P("call","$1$scrollbars",0,[a],["scrollbar
 $2$inner$outer(a,b){return this.K(this,A.P("call","$2$inner$outer",0,[a,b],["inner","outer"],0))},
 $8$enableDomStorage$enableJavaScript$headers$universalLinksOnly$useSafariVC$useWebView$webOnlyWindowName(a,b,c,d,e,f,g,h){return this.K(this,A.P("call","$8$enableDomStorage$enableJavaScript$headers$universalLinksOnly$useSafariVC$useWebView$webOnlyWindowName",0,[a,b,c,d,e,f,g,h],["enableDomStorage","enableJavaScript","headers","universalLinksOnly","useSafariVC","useWebView","webOnlyWindowName"],0))},
 $1$fontWeight(a){return this.K(this,A.P("call","$1$fontWeight",0,[a],["fontWeight"],0))},
+$1$path(a){return this.K(this,A.P("call","$1$path",0,[a],["path"],0))},
 $1$queryParameters(a){return this.K(this,A.P("call","$1$queryParameters",0,[a],["queryParameters"],0))},
 $2$exception$stack(a,b){return this.K(this,A.P("call","$2$exception$stack",0,[a,b],["exception","stack"],0))},
 $2$chunkCallback(a,b){return this.K(this,A.P("call","$2$chunkCallback",0,[a,b],["chunkCallback"],0))},
@@ -85583,7 +85584,7 @@ s=p}while(true)switch(s){case 0:p=4
 i=n.a.as
 i===$&&A.a()
 s=7
-return A.E(i.Vq("photography").aow(),$async$wr)
+return A.E(i.Vq("photography").aow("compressed"),$async$wr)
 case 7:m=b
 i=J.lI(m,new A.a5B(n),t.N)
 l=A.a3(i,!0,i.$ti.i("aq.E"))
@@ -87229,13 +87230,13 @@ s===$&&A.a()
 return new A.agl(this.a,this.b,a,s)}}
 A.agl.prototype={
 AN(a,b){return this.aox(a,b)},
-aow(){return this.AN(null,B.BR)},
+aow(a){return this.AN(a,B.BR)},
 aox(a,b){var s=0,r=A.C(t.Sl),q,p=this,o,n,m,l,k,j,i
 var $async$AN=A.y(function(c,d){if(c===1)return A.z(d,r)
 while(true)switch(s){case 0:n=t.N
 m=t.z
 l=A.r(n,m)
-l.m(0,"prefix","")
+l.m(0,"prefix",a)
 o=A.ac(["column","name","order","asc"],n,m)
 l.O(0,A.ac(["limit",100,"offset",0,"sortBy",o,"search",null],n,m))
 k=A
