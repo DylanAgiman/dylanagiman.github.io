@@ -85615,7 +85615,7 @@ A.a5B.prototype={
 $1(a){var s,r=this.a.a.as
 r===$&&A.a()
 r=r.Vq("photography")
-s=A.d5(r.a+"/object/public/"+(r.c+"/"+a.a),0,null).w5(null).gmf()
+s=A.d5(r.a+"/object/public/"+(r.c+"/"+("compressed/"+a.a)),0,null).w5(null).gmf()
 return s},
 $S:552}
 A.HN.prototype={
